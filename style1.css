@@ -1,0 +1,381 @@
+ html,body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+    vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+
+img{
+    width: 100%;
+
+}
+/*header style*/
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+.header{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background-color: 	#F7FCFF;
+}
+.header .logo{
+width: 370px;
+margin: 25px auto;
+
+}
+.header .menu{
+    display: inline-block;
+    width: 100%;
+    background-color: #5DBCD2;
+    height: 50px;
+    line-height: 50px;
+
+}
+.header .menu ul{
+    display: flex;
+}
+.header .menu ul li{    
+    flex: auto;
+    -ms-flex-align: center;
+}
+.header .menu  ul li a{
+color:	wheat;
+text-decoration: none;
+font-weight: 500;
+}
+/*styling for left content*/
+.left-content{
+    display: inline;
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+}
+.left-content .main{
+    float: left;
+    padding-top: 10px;
+}
+.left-content .main .image-section{
+   
+    width: 85%;
+}
+.left-content .main .post-desc{
+    width: 85%;
+   padding-top: 30px;
+   padding-bottom: 20px;
+   
+}
+.left-content .main .post-desc h2{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.left-content .main .post-desc  p{
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+.left-content  a{
+    color: black;
+    text-decoration: none;
+}
+.left-content a:hover{
+    color: rosybrown;
+    text-decoration: none;
+}
+.left-content .bottom{
+    width: 100%;
+    display: block;
+    float: left;
+    padding-top: 100px;
+}
+.left-content .bottom .trending{
+    display:inline-block;
+}
+.left-content .trending h2{
+    font-size: 30px;
+    font-weight: 400;
+    
+    padding-bottom: 10px;
+}
+.left-content .trending h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.trending .img-sec{
+    width:30%;
+    float: left;
+    padding-top: 10px;
+}
+.trending .desc{
+    width: 50%;
+    font-weight: 400;
+    padding-top: 5px;
+    padding-left: 20px;
+    float: left;
+
+}
+.left-content .trending a{
+    background-color: black;
+    text-decoration: none;
+}
+.left-content .trending a:hover{
+    color: rosybrown;
+    text-decoration: none;
+}
+/*Style for right content*/
+.right-content{
+    display: inline;
+    width: 50%;
+    float: right;
+    padding-top: 50px;
+    
+    padding-right:50px;
+    padding-bottom: 100px;
+    
+}
+.right-content  a{
+    color: black;
+    text-decoration: none;
+}
+.right-content  a:hover{
+    color: rosybrown;
+    text-decoration: none;
+}  
+.right-content .row{
+    width:45%;
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    
+}
+    
+
+.right-content .col{
+    width:45%;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.right-content .bottom{
+    display: block;
+    margin-top: 117px;
+    width: 100%;
+    padding-bottom: 135px;
+    padding-left: 20px;
+   
+}
+.right-content .bottom .blog{
+    display: inline-block;
+   
+}
+
+.right-content .bottom .img-sec{
+    width:27%;
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.right-content .bottom .desc{
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 50%;
+
+}
+.right-content .blog h2{
+    font-size: 30px;
+    font-weight: 100;
+}
+.right-content .blog h3{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+.left-bottom{
+    display: inline;
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 100px;
+}
+.sec{  
+    display: inline-block;
+    padding-left: 100px;
+    padding-top: 0px;
+    padding-right: 100px;
+    width: 100%;
+    padding-bottom: 50px;
+    
+    
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 325px;
+    
+    
+}
+.gallery:hover{
+    border: 1px solid #777;
+    background-color: aquamarine;
+    
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+  }
+  .desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+    
+  }   
+  
+  .gallery a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .footer-main{
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      text-align: center;
+      background-color:#5DBCD2;
+      font-size: larger;
+     
+  }
+  .footer-main i{
+      font-size: larger;
+      font-weight: 600;
+      
+  }
+
+  /*blog page*/
+ .column-blog {
+    float: left;
+    width: 25%;
+  }
+  .left{
+      width:15%;
+      padding-left:5px;
+      padding-top: 5px;
+      padding-right: 0px;
+      margin-right: 0px ;
+      margin-left:100px;
+      margin-top: 30px;
+      
+      height: 265px;
+      background-color: lightblue;
+  }
+  .left h2{
+      font-size: larger;
+      font-weight: 600;
+      padding-bottom: 10px;
+  } 
+  .left p{
+    font-size: large;
+    font-weight: 500;
+  }
+  .right{
+      width:25%;
+      padding-left:0px;
+      padding-top: 30px;
+      margin-left: 0px;;
+  }
+  .row-blog a{
+      color: black;
+      text-decoration: none;
+  }
+  .row-blog a:hover{
+      color: rosybrown;
+      text-decoration: none;
+  }
+  /* Clear floats after the columns */
+  .row-blog:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /*for center webpage*/
+  .new-content {
+    max-width: 800px;
+    margin: auto;
+    padding-top: 400px;
+  }
+  .new-content h2{
+      padding-top: 20px;
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+  }
+  .new-content p{
+      padding: 20px;
+      font-size: medium;
+      font-weight: 500;
+      word-spacing: 10px;
+        line-height: 1.6;
+   
+  }
+  .cont{
+    padding: 50px;
+    position : relative;
+    top: 50px;
+    left: 55px;
+
+}
+.col{
+    padding: 55px 15px 0 0;
+}
+.im{
+    width: 20%;
+    display: inline;
+    position: relative;
+    left: 15px;
+}
